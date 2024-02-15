@@ -23,8 +23,7 @@ public class Author {
     @Column(name = "data_di_nascita")
     private LocalDate dataDiNascita;
     private String avatar;
-    public Author(long id, String nome, String cognome, String email, LocalDate dataDiNascita) {
-        this.id = id;
+    public Author(String nome, String cognome, String email, LocalDate dataDiNascita) {
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
